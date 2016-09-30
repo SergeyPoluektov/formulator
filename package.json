@@ -1,0 +1,15 @@
+{
+  "name": "formulator",
+  "version": "0.0.1",
+  "description": "Calculator for formulas based on RPN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RPN",
+    "formula"
+  ],
+  "author": "Sergey Poluektov",
+  "license": "MIT"
+}
