@@ -1,6 +1,6 @@
 # Formulator
 
-A library for calculating value by formula and objects with operands values. Based on Reverse Polish Notation algorithm.
+A library for calculating value by formula and object with operands values. Based on Reverse Polish Notation algorithm.
 Now supports +, -, *, /, sqrt, ^ and parenthesis.
 
 ## Usage
