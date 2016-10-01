@@ -48,3 +48,23 @@ for (let metric in config) {
 
 console.log(dataObj.BTR) // 12
 ```
+
+#### Really crazy example
+```
+const values = {
+  a: 5,
+  b: 3,
+  c: 2,
+  d: 4,
+  e: 1
+}
+
+const formula = '( d ^ e + ( ( a - b ) + sqrt ( d ^ c + ( a + d ) ) ) ) / c'
+
+const result = formulator({
+  values: values,
+  formula: formula
+})
+
+console.log(result) // 5.5
+```
